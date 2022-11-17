@@ -5,7 +5,7 @@ pipeline {
        }
     }
     stages {
-        state('Run Tests') {
+        stage('Run Tests') {
 	    parallel {
                 stage('Backend Tests') {
                     steps {
